@@ -23,7 +23,7 @@ new Vue({
   methods: {
     // Dedicated method to retrieve and set some data
     fetchEvents: function() {
-      ver events = [
+      var events = [
         {
           id: 1,
           name: 'TIFF',
@@ -54,6 +54,4 @@ new Vue({
         }
       }
     }
-
-  }
 });
